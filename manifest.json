@@ -2,24 +2,24 @@
   "name": "Sổ điểm cá nhân",
   "short_name": "Sổ điểm",
   "description": "Hệ thống sổ điểm cá nhân",
-  "start_url": "/sodiemcanhan/",
-  "scope": "/sodiemcanhan/",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#1e40af",
   "theme_color": "#1e40af",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "./logo.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "logo.png",
+      "src": "./logo.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }
