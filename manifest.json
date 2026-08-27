@@ -1,7 +1,7 @@
 {
-  "name": "Sổ điểm cá nhân",
-  "short_name": "Sổ điểm",
-  "description": "Hệ thống sổ điểm cá nhân",
+  "name": "TEACHER'S ASSISTANT",
+  "short_name": "AppSchool",
+  "description": "TEACHER'S ASSISTANT",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
