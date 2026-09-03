@@ -1,7 +1,7 @@
 {
-  "name": "TEACHER'S ASSISTANT",
-  "short_name": "AppSchool",
-  "description": "TEACHER'S ASSISTANT",
+  "name": "APP SCHOOL - TEACHER'S ASSISTANT",
+  "short_name": "AppShool",
+  "description": "Ứng dụng quản lý các khoản chi tiêu của gia đình",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -10,9 +10,16 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "./logo.png",
+      "src": "logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
