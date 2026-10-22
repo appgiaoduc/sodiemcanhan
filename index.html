@@ -199,6 +199,15 @@
   </div>
 
   <script>
+    // Tự động tải lại trang khi được chuyển từ Apps Script (tránh bị trắng)
+(function() {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('forceReload') === '1') {
+    // Xóa cờ và ép tải lại hoàn toàn
+    const cleanUrl = window.location.origin + window.location.pathname;
+    window.location.replace(cleanUrl);
+  }
+})();
     // ========== ẨN LOADER ==========
     function hideLoader() {
       const loader = document.getElementById('loader');
