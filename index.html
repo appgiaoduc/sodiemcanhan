@@ -10,15 +10,14 @@
 "APP SCHOOL - TEACHER'S ASSISTANT ">  <title>Hệ thống quản lý học sinh, tích hợp tiện ích giáo dục</title>
  <link rel="icon" type="image/png" href="logo.png">
   <link rel="apple-touch-icon" href="logo.png">
-  <limnk rel="manifest" href="manifest.json">
-<style>
+  <link rel="manifest" href="manifest.json">
+  <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body { 
-      height: 100vh; 
-      width: 100vw;
+      height: 100%; 
       overflow: hidden; 
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #0f172a; /* Khớp với màu nền của header Google Apps Script */
+      background: #f8fafc; 
     }
 
     /* ========== LOADER ========== */
@@ -60,17 +59,11 @@
       visibility: hidden;
     }
 
-    /* ========== IFRAME TRÀN VIỀN TUYỆT ĐỐI ========== */
+    /* ========== IFRAME ========== */
     iframe {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw; 
-      height: 100vh;
+      width: 100%; height: 100%;
       border: none;
       display: block;
-      margin: 0;
-      padding: 0;
     }
 
     /* ========== NÚT CÀI ĐẶT ỨNG DỤNG ========== */
@@ -86,7 +79,7 @@
       font-size: 15px;
       font-weight: 600;
       box-shadow: 0 8px 25px rgba(30, 64, 175, 0.35);
-      display: none;
+      display: none;               /* ẩn mặc định */
       align-items: center;
       gap: 10px;
       z-index: 10000;
